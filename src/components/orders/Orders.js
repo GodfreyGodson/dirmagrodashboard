@@ -24,9 +24,11 @@ const Orders = (props) => {
 
             <tr key={order._id}>
             <td>
-              <b>{order.user.data.fullName}</b>
+              GG
+             {/* / <b>{order.user.data.e}</b> */}
             </td>
-            <td>{order.user.email}</td>
+            @example
+            {/* <td>{order.user.email}</td> */}
             <td>Tsh{order.grandTotal}</td>
             <td>
               <span className="badge rounded-pill alert-success">
